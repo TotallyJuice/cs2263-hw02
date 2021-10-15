@@ -3,12 +3,31 @@
  */
 package edu.isu.cs2263.hw02;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * An application that can load in student data and display course lists for students
+ *
+ * @author Michael Collier
+ *
+ * @since 1.0.0
+ */
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+
+
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+
+        UIHandler uiHandler = new UIHandler();
+
+        uiHandler.run();
+
     }
+
+
+
+
 }
